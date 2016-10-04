@@ -147,7 +147,12 @@ header.main__header {
     font-size: 20px; }
 
 aside.palette {
-  text-align: center; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 /* SLIDER GALLERY */
 .carousel__outer {
