@@ -2,10 +2,55 @@
 @import '_var';
 @import '_global';
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+header.main__header {
+	background-color: #35DAE2;
+	padding: 30px;
+		h1 {
+			color: white;
+			font-family: 'Montserrat Alternates', Arial, sans-serif;
+			font-size: 20px;
+		}
+}
+
 aside.palette {
 	text-align: center;
 }
 
-h1 {
-	color: pink;
+
+/* SLIDER GALLERY */
+
+.carousel__outer {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel__card {
+  padding: 60px 120px;
+}
+
+.card__hidden {
+  display: none; 
+}
+
+.previous__container,
+.next__container {
+  display: flex;
+  align-items: center;
+}
+
+.previous__container i,
+.next__container i {
+  color: black;
+  margin: 0 20px;
 }

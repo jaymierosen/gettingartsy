@@ -128,8 +128,52 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 *, *:before, *:after {
   box-sizing: border-box; }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0; }
+
+header.main__header {
+  background-color: #35DAE2;
+  padding: 30px; }
+  header.main__header h1 {
+    color: white;
+    font-family: 'Montserrat Alternates', Arial, sans-serif;
+    font-size: 20px; }
+
 aside.palette {
   text-align: center; }
 
-h1 {
-  color: pink; }
+/* SLIDER GALLERY */
+.carousel__outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.carousel__card {
+  padding: 60px 120px; }
+
+.card__hidden {
+  display: none; }
+
+.previous__container,
+.next__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.previous__container i,
+.next__container i {
+  color: black;
+  margin: 0 20px; }
