@@ -2,30 +2,30 @@
 @import '_var';
 @import '_global';
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-	margin: 0;
-	padding: 0;
+header.main__header {
+	background-image: url('../../assets/3.jpg');
+	background-size: cover;
+	height: 90vh;
 }
 
 header.main__header {
-	background-color: #35DAE2;
-	padding: 30px;
+	padding: 40px;
+	color: white;
+	text-align: center;
 		h1 {
-			color: white;
-			font-family: 'Montserrat Alternates', Arial, sans-serif;
-			font-size: 20px;
+			font-size: 90px;
+			color: black;
+			font-weight: 700;
+			letter-spacing: 0.08em;
 		}
 }
 
-aside.palette {
+.main__container {
 	display: flex;
-	justify-content: center;
+}
+
+aside.palette {
+	padding: 20px;
 }
 
 
@@ -36,19 +36,24 @@ aside.palette {
   justify-content: center;
 }
 
-.carousel__card {
-  padding: 60px 120px;
-}
+// .carousel__card {
+//   padding: 60px 120px;
+// }
 
 .card__hidden {
   display: none; 
 }
 
-.previous__container,
-.next__container {
-  display: flex;
-  align-items: center;
+.pagination {
+	display: flex;
+	justify-content: center;
 }
+
+// .previous__container,
+// .next__container {
+//   display: flex;
+//   align-items: center;
+// }
 
 .previous__container i,
 .next__container i {
